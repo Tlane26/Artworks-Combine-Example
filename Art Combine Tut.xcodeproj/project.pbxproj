@@ -11,6 +11,10 @@
 		1A88B5D82BA0BB2F00499B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5D72BA0BB2F00499B9F /* ContentView.swift */; };
 		1A88B5DA2BA0BB3100499B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A88B5D92BA0BB3100499B9F /* Assets.xcassets */; };
 		1A88B5DD2BA0BB3100499B9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A88B5DC2BA0BB3100499B9F /* Preview Assets.xcassets */; };
+		1A88B5E72BA0BB6300499B9F /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5E62BA0BB6300499B9F /* Artwork.swift */; };
+		1A88B5E92BA0BC6C00499B9F /* ArtworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5E82BA0BC6C00499B9F /* ArtworkViewModel.swift */; };
+		1A88B5EB2BA0BFE600499B9F /* ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5EA2BA0BFE600499B9F /* ArtworkView.swift */; };
+		1A88B5ED2BA0C03B00499B9F /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88B5EC2BA0C03B00499B9F /* ArtworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1A88B5D72BA0BB2F00499B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A88B5D92BA0BB3100499B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A88B5DC2BA0BB3100499B9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A88B5E62BA0BB6300499B9F /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		1A88B5E82BA0BC6C00499B9F /* ArtworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewModel.swift; sourceTree = "<group>"; };
+		1A88B5EA2BA0BFE600499B9F /* ArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkView.swift; sourceTree = "<group>"; };
+		1A88B5EC2BA0C03B00499B9F /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				1A88B5D52BA0BB2F00499B9F /* Art_Combine_TutApp.swift */,
-				1A88B5D72BA0BB2F00499B9F /* ContentView.swift */,
+				1A88B5E52BA0BB4200499B9F /* Model */,
+				1A88B5E42BA0BB3E00499B9F /* Views */,
+				1A88B5E32BA0BB3600499B9F /* ViewModel */,
 				1A88B5D92BA0BB3100499B9F /* Assets.xcassets */,
 				1A88B5DB2BA0BB3100499B9F /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				1A88B5DC2BA0BB3100499B9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A88B5E32BA0BB3600499B9F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A88B5E82BA0BC6C00499B9F /* ArtworkViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A88B5E42BA0BB3E00499B9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A88B5D72BA0BB2F00499B9F /* ContentView.swift */,
+				1A88B5EA2BA0BFE600499B9F /* ArtworkView.swift */,
+				1A88B5EC2BA0C03B00499B9F /* ArtworkDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A88B5E52BA0BB4200499B9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A88B5E62BA0BB6300499B9F /* Artwork.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A88B5D82BA0BB2F00499B9F /* ContentView.swift in Sources */,
+				1A88B5EB2BA0BFE600499B9F /* ArtworkView.swift in Sources */,
+				1A88B5E72BA0BB6300499B9F /* Artwork.swift in Sources */,
 				1A88B5D62BA0BB2F00499B9F /* Art_Combine_TutApp.swift in Sources */,
+				1A88B5ED2BA0C03B00499B9F /* ArtworkDetailView.swift in Sources */,
+				1A88B5E92BA0BC6C00499B9F /* ArtworkViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
